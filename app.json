@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "3some: Threesome Dating",
+    "slug": "threesome",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "facebookScheme": "fb702290893271727",
+    "facebookAppId": "702290893271727",
+    "facebookDisplayName":"3some",
+    "version": "1.19.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "co.3some.3some",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow 3some to use your location to find people near you",
+        "NSPhotoLibraryUsageDescription": "Allow 3some to access your photos to upload to your 3some account"
+      }
+    }
+  }
+}
